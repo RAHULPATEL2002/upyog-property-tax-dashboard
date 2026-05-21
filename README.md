@@ -1,6 +1,6 @@
 # NUDM Intern Assessment 2026 - Rahul Patel
 
-UPYOG Property Tax Analytics Dashboard for a multi-tenant property tax platform. The app loads `src/properties.json` directly in React and analyzes 1,000 property records across Delhi, Mumbai, Pune, Bengaluru, Chennai, Hyderabad, Ahmedabad, Kolkata, Jaipur, and Lucknow.
+UPYOG Property Tax Analytics Dashboard for a multi-tenant property tax platform. The app loads the official provided `src/properties.json` file directly in React and analyzes 1,000 property records across Delhi, Mumbai, Pune, Bengaluru, Chennai, Hyderabad, Ahmedabad, Kolkata, Jaipur, and Lucknow.
 
 ## Features
 
@@ -53,7 +53,7 @@ npm run lint
 
 ## Data
 
-The committed `src/properties.json` contains exactly 1,000 records with the required assessment fields:
+The committed `src/properties.json` is the official assessment dataset and contains exactly 1,000 records with the required assessment fields:
 
 - `property_id`
 - `tenant`
@@ -67,3 +67,5 @@ The committed `src/properties.json` contains exactly 1,000 records with the requ
 - `registration_date`
 - `floor_count`
 - `address`
+
+Observed property types in the official file are `Agricultural`, `Industrial`, `Commercial`, `Mixed Use`, and `Residential`.
